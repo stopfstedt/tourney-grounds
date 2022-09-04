@@ -1,0 +1,32 @@
+{
+  "name": "tourney-grounds",
+  "version": "1.0.0",
+  "description": "A tournament helper bot.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-commands": "node deploy-commands.js",
+    "deploy-commands-and-start": "node deploy-commands.js && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "application",
+    "bot",
+    "discord"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "ascii-table3": "^0.7.7",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  }
+}
